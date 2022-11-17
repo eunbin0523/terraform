@@ -1,0 +1,3 @@
+output "default_account" {
+  value = data.google_compute_default_service_account.default.email
+}
